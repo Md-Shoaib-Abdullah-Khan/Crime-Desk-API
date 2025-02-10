@@ -2,12 +2,12 @@ import requests
 from langchain_groq import ChatGroq
 from langchain.schema import SystemMessage, HumanMessage
 from flask import Flask, request, jsonify
-from dotenv import load_dotenv
-import os
+#from dotenv import load_dotenv
+#import os
 
-load_dotenv()
+#load_dotenv()
 
-API_KEY = os.environ['GROQ_API_KEY']
+API_KEY = "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"
 
 app = Flask(__name__)
 
